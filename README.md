@@ -16,7 +16,7 @@ follow the **instructions**:
 ```shell
 Need to install the following packages:
 @eslint/create-config@1.6.0
-Ok to proceed? (y) <ins>y</ins>
+Ok to proceed? (y) y
 
 
 > npx
@@ -27,7 +27,7 @@ Ok to proceed? (y) <ins>y</ins>
 The config that you've selected requires the following dependencies:
 
 eslint, globals, @eslint/js, typescript-eslint, eslint-plugin-react
-✔ Would you like to install them now? · No / <ins>Yes</ins>
+✔ Would you like to install them now? · No / Yes
 
 ☕️Installing...
 
