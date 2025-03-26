@@ -76,7 +76,7 @@ If ESLint automatically corrects the behaviour in VS Code, this is probably due 
 2️⃣ Search for "editor.codeActionsOnSave"
 3️⃣ If you see that ESLint automatically corrects when saving, you can deactivate it:
 
-👉 Falls ESLint nicht automatisch korrigieren soll, setze es so:
+👉 If ESLint should not autocorrect, set it like this:
 
 ```json
 "editor.codeActionsOnSave": {
@@ -91,4 +91,5 @@ If ESLint automatically corrects the behaviour in VS Code, this is probably due 
 ```shell
 npx eslint src/FileName.tsx
 ```
+
 # test-Project
