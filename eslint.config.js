@@ -14,11 +14,9 @@ export default defineConfig([
   { files: ["**/*.{js,mjs,cjs,ts,jsx,tsx}"], languageOptions: { globals: globals.browser } },
   {
     files: ["**/*.{js,mjs,cjs,ts,jsx,tsx}"],
-    plugins: { js,/*  "@typescript-eslint": tseslint, react: pluginReact  */ },
+    plugins: { js },
     extends: [
       "js/recommended",
-      /*  "plugin:@typescript-eslint/recommended",
-       "plugin:react/recommended", */
     ],
     rules: {
       "indent": ["error", 2], // Enforce 2-space indentation
@@ -31,9 +29,6 @@ export default defineConfig([
       "no-multiple-empty-lines": ["error", { "max": 1 }], // No excessive empty lines
       "no-trailing-spaces": "error", // Remove spaces at end of lines
       "react/jsx-indent": ["error", 2], // Enforce 2-space indentation in JSX
-      /* "@typescript-eslint/no-unused-vars": "warn", // Warn about unused variables
-      "@typescript-eslint/no-explicit-any": "warn", // Warn if using `any` type
-      "@typescript-eslint/consistent-type-definitions": ["warn", "interface"], // Prefer `interface` over `type` */
     },
   },
   tseslint.configs.recommended,
